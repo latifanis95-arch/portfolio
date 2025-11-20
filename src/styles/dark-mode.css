@@ -1,0 +1,77 @@
+@layer base {
+  .dark {
+    --background: 222 47% 8%; /* Un bleu très sombre et profond */
+    --foreground: 210 40% 98%; /* Blanc cassé / gris très clair */
+    
+    --card: 222 47% 11%; /* Un bleu légèrement plus clair pour les cartes */
+    --card-foreground: 210 40% 98%;
+    
+    --popover: 222 47% 9%; /* Similaire au fond, ou légèrement plus clair */
+    --popover-foreground: 210 40% 98%;
+    
+    --primary: 217 91% 60%; /* Bleu vif (Grok-ish) */
+    --primary-foreground: 210 40% 98%; /* Texte blanc sur le bleu primaire */
+    
+    --secondary: 222 47% 18%; /* Un gris-bleu plus clair pour les éléments secondaires */
+    --secondary-foreground: 210 40% 90%; /* Texte légèrement moins vif sur fond secondaire */
+    
+    --muted: 222 47% 15%; /* Pour les textes et éléments discrets */
+    --muted-foreground: 210 40% 60%; /* Gris moyen pour le texte muté */
+    
+    --accent: 250 69% 61%; /* Violet/Magenta vif (Grok-ish accent) */
+    --accent-foreground: 210 40% 98%; /* Texte blanc sur l'accent */
+    
+    --destructive: 0 72% 51%; /* Rouge pour les actions destructrices */
+    --destructive-foreground: 210 40% 98%;
+    
+    --border: 222 47% 18%; /* Bordures subtiles, un peu plus claires que le fond de la carte */
+    --input: 222 47% 15%; /* Fond des champs de saisie */
+    --ring: 217 91% 70%; /* Couleur de l'anneau de focus, variante plus claire du primaire */
+  }
+}
+
+@layer components {
+  .dark .skill-item {
+    background-color: hsl(var(--secondary));
+  }
+
+  .dark .skill-item .text-primary-foreground {
+     color: hsl(var(--foreground));
+  }
+  .dark .skill-item .text-muted-foreground {
+     color: hsl(var(--muted-foreground));
+  }
+  .dark .skill-item .bg-primary\/10 {
+    background-color: hsla(var(--primary), 0.1);
+  }
+  .dark .skill-item .text-primary {
+     color: hsl(var(--primary));
+  }
+
+  .dark .bg-card {
+    background-color: hsl(var(--card));
+  }
+  .dark .text-primary-foreground { /* S'applique au texte DANS les éléments primaires, ou au texte qui EST primaire */
+    color: hsl(var(--foreground)); 
+  }
+  .dark .text-muted-foreground {
+     color: hsl(var(--muted-foreground));
+  }
+
+  /* Ajustement pour que l'overlay du Hero soit moins opaque ou plus stylisé */
+  .dark .hero-section-bg > div {
+    background-color: rgba(10, 20, 35, 0.6); /* Overlay plus sombre et bleuté */
+  }
+
+  .dark .text-gradient-blue-purple {
+    @apply bg-gradient-to-r from-sky-400 via-violet-500 to-purple-500;
+  }
+  
+  .dark .nav-link.active-hero::after {
+    background-color: hsl(var(--primary)) !important; /* Utilise la couleur primaire pour l'indicateur actif */
+  }
+  
+  .dark .nav-link:not(.active-hero):hover::after {
+    background-color: hsl(var(--accent)) !important; /* Utilise la couleur d'accent pour le survol */
+  }
+}

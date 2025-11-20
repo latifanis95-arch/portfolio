@@ -1,0 +1,211 @@
+{
+  "portfolio": "Anis LATIF - Portfolio",
+  "home": "Home",
+  "about": "About",
+  "projects": "Projects",
+  "skills": "Skills",
+  "experiences": "Experiences",
+  "contact": {
+    "title": "Let's Get in Touch!",
+    "subtitle": "A question, an opportunity, or just want to chat? Don't hesitate to leave me a message.",
+    "infoTitle": "Contact Information",
+    "form": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Your full name"
+      },
+      "email": {
+        "label": "Your Email",
+        "placeholder": "your.email@example.com"
+      },
+      "message": {
+        "label": "Your Message",
+        "placeholder": "Your message here..."
+      },
+      "submit": "Send Message",
+      "sending": "Sending..."
+    },
+    "toast": {
+      "success": {
+        "title": "Message sent (Simulation)!",
+        "description": "Thank you for contacting me. I will get back to you as soon as possible. (This is a simulation)"
+      },
+      "error": {
+        "title": "Simulation Error",
+        "description": "An error occurred during the simulation."
+      }
+    }
+  },
+  "contactMe": "Contact Me",
+  "language": "Language",
+  "french": "Français",
+  "english": "English",
+  "menu": "Menu",
+  "hero": {
+    "imageAlt": "Modern digital supply chain with smart logistics elements, connected networks, and automated warehouses",
+    "badge": "Supply Chain Project Manager at LIDL France",
+    "title": "Building the Supply Chain of Tomorrow",
+    "subtitle": "Flow architect, performance catalyst: I turn logistical challenges into operational successes.",
+    "cta": {
+      "profile": "My Profile",
+      "skills": "My Skills"
+    },
+    "linkedinPostTitle": "Embedded LinkedIn Post"
+  },
+  "homeAbout": {
+    "badge": "Who am I?",
+    "title": "An Analytical Mind for Performance",
+    "text": "With a strong academic background and diverse practical experiences, I combine analytical rigor and creativity to design efficient logistics solutions. My goal: to transform challenges into opportunities and optimize every link in the value chain.",
+    "imageAlt": "Professional portrait of Anis LATIF, smiling and confident.",
+    "cta": "Learn More"
+  },
+  "homeExp": {
+    "title": "Dive Into My Expertise",
+    "subtitle": "Discover how my concrete projects and professional experiences have forged my Supply Chain expertise.",
+    "projects": {
+      "title": "My Key Projects",
+      "subtitle": "Concrete achievements that demonstrate my ability to innovate and optimize."
+    },
+    "barcodeProject": {
+      "title": "Barcode Integration Project",
+      "intro": "A major initiative to improve traceability and operational efficiency through barcode technology."
+    },
+    "viewProjectsBtn": "Explore Projects",
+    "professional": {
+      "title": "My Professional Journey",
+      "subtitle": "Roles where I could develop my skills and contribute actively."
+    },
+    "ksHolding": {
+      "title": "Supply Chain Assistant",
+      "intro": "A one-year experience at the heart of flow management, stock optimization, and logistics coordination."
+    },
+    "viewProfessionalBtn": "View my Experiences"
+  },
+  "homeSkills": {
+    "title": "My Key Skill Areas",
+    "subtitle": "My training and experiences have allowed me to develop a versatile set of skills, essential for navigating and excelling in the complex world of modern Supply Chain.",
+    "manage": {
+      "title": "Manage Resources",
+      "learning1": "Leadership and motivation of multidisciplinary teams.",
+      "learning2": "Optimal allocation of resources (human, material, financial).",
+      "learning3": "Performance management and talent development."
+    },
+    "organize": {
+      "title": "Organize the Supply Chain",
+      "learning1": "Design and optimization of flows (physical and informational).",
+      "learning2": "Strategic inventory and procurement management.",
+      "learning3": "Steering of transport and warehousing operations."
+    },
+    "digital": {
+      "title": "Master Digital Tools",
+      "learning1": "Advanced use of ERP and WMS for operations management.",
+      "learning2": "Data analysis and Business Intelligence (BI) for decision-making.",
+      "learning3": "Technological watch and integration of innovative solutions (AI, IoT)."
+    },
+    "cta": "Explore All My Skills"
+  },
+  "footer": {
+    "title": "Anis LATIF - Portfolio",
+    "subtitle": "Passionate about Supply Chain and innovation. Let's explore opportunities together.",
+    "navigation": "Navigation",
+    "copyright": "Anis LATIF - Portfolio. All rights reserved."
+  },
+  "aboutHero": {
+    "title": "About Me",
+    "subtitle": "Two sides, one journey",
+    "proButton": "Pro Side – AI x Supply Chain",
+    "persoButton": "Personal Side – Nature & Travel",
+    "proAlt": "Professional AI and Supply Chain workspace",
+    "persoAlt": "Peaceful snowy lake landscape",
+    "proAltFullscreen": "Professional AI and Supply Chain workspace fullscreen",
+    "persoAltFullscreen": "Peaceful snowy lake landscape fullscreen"
+  },
+  "aboutPage": {
+    "professionalProfile": {
+      "title": "Professional Profile",
+      "subtitle": "Apprentice Supply Chain Project Manager at LIDL France"
+    },
+    "vision": {
+      "title": "My Vision and Goals",
+      "philosophy": "What I love most is hearing a 'Thank you, Anis' after helping someone, because it makes me feel useful. My definition of the Supply Chain is to help every link in the company perform their tasks under the best possible conditions.",
+      "goal": "My main goal is to become a major player in the success of a large group in terms of Supply Chain. After that, I am considering the possibility of working abroad."
+    },
+    "education": {
+      "title": "Education",
+      "bac": {
+        "title": "General Baccalaureate",
+        "details": "Specialties in Mathematics & SES"
+      },
+      "but": {
+        "title": "University Diploma in Logistics and Transport Management",
+        "details": "Specialty in Digitalization"
+      },
+      "master": {
+        "title": "Master's in Supply Chain and Purchasing"
+      }
+    },
+    "experience": {
+      "title": "Professional Experience",
+      "stage": {
+        "title": "Logistics Assistant Intern",
+        "dates": "January 2023 - February 2023 (2 months)"
+      },
+      "alternanceKS": {
+        "title": "Logistics Manager Assistant (Apprenticeship)",
+        "dates": "September 2023 - August 2025 (2 years)"
+      },
+      "alternanceLidl": {
+        "title": "Supply Chain Project Manager (Apprenticeship)",
+        "dates": "September 2025 - August 2027 (2 years)"
+      }
+    },
+    "softSkills": {
+      "title": "Soft Skills",
+      "org": {
+        "title": "Organization and Project Management",
+        "skills": "Rigorous planning|Team coordination|Performance indicator tracking"
+      },
+      "analysis": {
+        "title": "Analysis and Rigor",
+        "skills": "Complex problem solving|Attention to detail|Critical thinking and proactive suggestions"
+      },
+      "comm": {
+        "title": "Communication and Team Spirit",
+        "skills": "Clear and concise communication|Cross-functional collaboration|Adaptability and active listening"
+      }
+    },
+    "personalLife": {
+      "title": "Personal Life",
+      "subtitle": "My passions beyond the professional world"
+    },
+    "personalInfo": {
+      "title": "Contact Information",
+      "mobility": "Mobility: Île-de-France / Oise",
+      "age": "21 years old",
+      "vehicle": "Personal vehicle"
+    },
+    "certifications": {
+      "title": "Certifications and Languages",
+      "iata": {
+        "title": "IATA Introductory Cargo Certification",
+        "date": "Obtained",
+        "descriptions": "Intensive training on air freight fundamentals (in English).|Selected from 50 students, one of 3 winners.|Covers: freight acceptance, pricing, documentation (AWB), basic IATA regulations."
+      },
+      "toeic": {
+        "title": "TOEIC (Test of English for International Communication)",
+        "date": "Score 835/990",
+        "descriptions": "Assessment of English proficiency in an international professional context."
+      }
+    },
+    "languages": {
+      "english": "English: B2 Level (TOEIC 835)",
+      "spanish": "Spanish: A2 Level (Basics)"
+    },
+    "testimonial": {
+      "title": "What people say about me",
+      "quote": "\"You are very patient, Anis.\"",
+      "author": "Alexandre Vallet, Logistics Manager at KS Holding",
+      "context": "Context: \"During a time when logistics was overwhelmed by a lack of adherence to procedures, I kept a cool head to find solutions.\""
+    }
+  }
+}

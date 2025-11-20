@@ -1,0 +1,211 @@
+{
+  "portfolio": "Anis LATIF - Portfolio",
+  "home": "Accueil",
+  "about": "À Propos",
+  "projects": "Projets",
+  "skills": "Compétences",
+  "experiences": "Expériences",
+  "contact": {
+    "title": "Prenons Contact !",
+    "subtitle": "Une question, une opportunité, ou simplement envie d'échanger ? N'hésitez pas à me laisser un message.",
+    "infoTitle": "Informations de Contact",
+    "form": {
+      "name": {
+        "label": "Nom",
+        "placeholder": "Votre nom complet"
+      },
+      "email": {
+        "label": "Votre Email",
+        "placeholder": "votre.email@example.com"
+      },
+      "message": {
+        "label": "Votre Message",
+        "placeholder": "Votre message ici..."
+      },
+      "submit": "Envoyer le Message",
+      "sending": "Envoi en cours..."
+    },
+    "toast": {
+      "success": {
+        "title": "Message envoyé (Simulation)!",
+        "description": "Merci de m'avoir contacté. Je vous répondrai dès que possible. (Ceci est une simulation)"
+      },
+      "error": {
+        "title": "Erreur de simulation",
+        "description": "Une erreur s'est produite durant la simulation."
+      }
+    }
+  },
+  "contactMe": "Contactez-moi",
+  "language": "Langue",
+  "french": "Français",
+  "english": "English",
+  "menu": "Menu",
+  "hero": {
+    "imageAlt": "Chaîne d'approvisionnement numérique moderne avec des éléments de logistique intelligente, des réseaux connectés et des entrepôts automatisés",
+    "badge": "Chef de Projet Supply Chain chez LIDL France",
+    "title": "Construire la Supply Chain de demain",
+    "subtitle": "Architecte des flux, catalyseur de performance : je transforme les défis logistiques en succès opérationnels.",
+    "cta": {
+      "profile": "Mon Profil",
+      "skills": "Mes Compétences"
+    },
+    "linkedinPostTitle": "Post intégré LinkedIn"
+  },
+  "homeAbout": {
+    "badge": "Qui suis-je ?",
+    "title": "Un Esprit Analytique au Service de la Performance",
+    "text": "Fort d'une solide formation académique et d'expériences pratiques variées, je combine rigueur analytique et créativité pour concevoir des solutions logistiques efficientes. Mon objectif : transformer les défis en opportunités et optimiser chaque maillon de la chaîne de valeur.",
+    "imageAlt": "Portrait professionnel d'Anis LATIF, souriant et confiant.",
+    "cta": "En savoir plus"
+  },
+  "homeExp": {
+    "title": "Plongez au Cœur de Mon Savoir-Faire",
+    "subtitle": "Découvrez comment mes projets concrets et mes expériences professionnelles ont forgé mon expertise en Supply Chain.",
+    "projects": {
+      "title": "Mes Projets Clés",
+      "subtitle": "Des réalisations concrètes qui démontrent ma capacité à innover et optimiser."
+    },
+    "barcodeProject": {
+      "title": "Projet d'Intégration de Codes-barres",
+      "intro": "Une initiative majeure pour améliorer la traçabilité et l'efficacité opérationnelle grâce à la technologie code-barres."
+    },
+    "viewProjectsBtn": "Explorer les Projets",
+    "professional": {
+      "title": "Mon Parcours Professionnel",
+      "subtitle": "Des rôles où j'ai pu développer mes compétences et contribuer activement."
+    },
+    "ksHolding": {
+      "title": "Assistant Supply Chain",
+      "intro": "Une expérience d'un an au cœur de la gestion des flux, de l'optimisation des stocks et de la coordination logistique."
+    },
+    "viewProfessionalBtn": "Voir mes Expériences"
+  },
+  "homeSkills": {
+    "title": "Mes Domaines de Compétence Clés",
+    "subtitle": "Ma formation et mes expériences m'ont permis de développer un ensemble de compétences polyvalentes, essentielles pour naviguer et exceller dans le monde complexe de la Supply Chain moderne.",
+    "manage": {
+      "title": "Manager les Ressources",
+      "learning1": "Leadership et motivation d'équipes pluridisciplinaires.",
+      "learning2": "Allocation optimale des ressources (humaines, matérielles, financières).",
+      "learning3": "Gestion de la performance et développement des talents."
+    },
+    "organize": {
+      "title": "Organiser la Chaîne Logistique",
+      "learning1": "Conception et optimisation des flux (physiques et informationnels).",
+      "learning2": "Gestion des stocks et des approvisionnements stratégiques.",
+      "learning3": "Pilotage des opérations de transport et d'entreposage."
+    },
+    "digital": {
+      "title": "Maîtriser les Outils Digitaux",
+      "learning1": "Utilisation avancée des ERP et WMS pour la gestion des opérations.",
+      "learning2": "Analyse de données et Business Intelligence (BI) pour la prise de décision.",
+      "learning3": "Veille technologique et intégration de solutions innovantes (IA, IoT)."
+    },
+    "cta": "Explorer toutes mes Compétences"
+  },
+  "footer": {
+    "title": "Anis LATIF - Portfolio",
+    "subtitle": "Passionné par la Supply Chain et l'innovation. Explorons ensemble les opportunités.",
+    "navigation": "Navigation",
+    "copyright": "Anis LATIF - Portfolio. Tous droits réservés."
+  },
+  "aboutHero": {
+    "title": "À propos de moi",
+    "subtitle": "Deux facettes, un seul parcours",
+    "proButton": "Côté Pro – IA x Supply Chain",
+    "persoButton": "Côté Perso – Nature & Voyages",
+    "proAlt": "Espace de travail professionnel IA et Supply Chain",
+    "persoAlt": "Paysage paisible de lac enneigé",
+    "proAltFullscreen": "Espace de travail professionnel IA et Supply Chain en plein écran",
+    "persoAltFullscreen": "Paysage paisible de lac enneigé en plein écran"
+  },
+  "aboutPage": {
+    "professionalProfile": {
+      "title": "Profil Professionnel",
+      "subtitle": "Apprenti Chef de Projet Supply Chain chez LIDL France"
+    },
+    "vision": {
+      "title": "Ma Vision et mes Objectifs",
+      "philosophy": "Ce que j'aime par dessus tout est d'entendre un \"Merci Anis\" après avoir aidé une personne, car je sens que je suis utile. Ma définition de la Supply Chain est d'aider chaque maillon de l'entreprise à réaliser ses tâches dans les meilleures conditions.",
+      "goal": "Mon objectif principal est de devenir un acteur majeur de la réussite d'un grand groupe sur le plan de la Supply Chain. Suite à cela, j'envisage potentiellement de travailler à l'étranger."
+    },
+    "education": {
+      "title": "Formation",
+      "bac": {
+        "title": "Baccalauréat Général",
+        "details": "Spécialités Mathématiques & SES"
+      },
+      "but": {
+        "title": "BUT Management de la Logistique et des Transports",
+        "details": "Spécialité Digitalisation"
+      },
+      "master": {
+        "title": "Master Supply Chain et Achat"
+      }
+    },
+    "experience": {
+      "title": "Expériences Professionnelles",
+      "stage": {
+        "title": "Stage Assistant Logistique",
+        "dates": "Janvier 2023 - Février 2023 (2 mois)"
+      },
+      "alternanceKS": {
+        "title": "Assistant du Responsable Logistique (Alternance)",
+        "dates": "Septembre 2023 - Août 2025 (2 ans)"
+      },
+      "alternanceLidl": {
+        "title": "Chef de Projet Supply Chain (Alternance)",
+        "dates": "Septembre 2025 - Août 2027 (2 ans)"
+      }
+    },
+    "softSkills": {
+      "title": "Compétences Transversales (Soft Skills)",
+      "org": {
+        "title": "Organisation et Gestion de Projet",
+        "skills": "Planification rigoureuse|Coordination d'équipe|Suivi des indicateurs de performance"
+      },
+      "analysis": {
+        "title": "Analyse et Rigueur",
+        "skills": "Résolution de problèmes complexes|Attention aux détails|Esprit critique et force de proposition"
+      },
+      "comm": {
+        "title": "Communication et Esprit d'Équipe",
+        "skills": "Communication claire et concise|Collaboration transverse|Adaptabilité et écoute active"
+      }
+    },
+    "personalLife": {
+      "title": "Vie Personnelle",
+      "subtitle": "Mes passions au-delà du monde professionnel"
+    },
+    "personalInfo": {
+      "title": "Informations de Contact",
+      "mobility": "Mobilité : Île-de-France / Oise",
+      "age": "21 ans",
+      "vehicle": "Véhicule personnel"
+    },
+    "certifications": {
+      "title": "Certifications et Langues",
+      "iata": {
+        "title": "Certification IATA Introductory Cargo",
+        "date": "Obtenue",
+        "descriptions": "Formation intensive sur les fondamentaux du fret aérien (en anglais).|Sélectionné parmi 50 élèves, un des 3 lauréats.|Couvre: acceptation du fret, tarification, documentation (AWB), réglementations de base IATA."
+      },
+      "toeic": {
+        "title": "TOEIC (Test of English for International Communication)",
+        "date": "Score 835/990",
+        "descriptions": "Évaluation de la compétence en anglais dans un contexte professionnel international."
+      }
+    },
+    "languages": {
+      "english": "Anglais : Niveau B2 (TOEIC 835)",
+      "spanish": "Espagnol : Niveau A2 (Notions)"
+    },
+    "testimonial": {
+      "title": "Ce que l'on dit de moi",
+      "quote": "\"Tu es très patient Anis.\"",
+      "author": "Alexandre Vallet, Responsable Logistique KS Holding",
+      "context": "Contexte : \"Lors d'un moment où la logistique était noyée par le manque de respect des procédures, j'ai gardé la tête froide afin de trouver des solutions.\""
+    }
+  }
+}

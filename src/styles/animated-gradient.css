@@ -1,0 +1,108 @@
+.interactive-bubble {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(
+    600px circle at var(--x, 0px) var(--y, 0px),
+    rgba(255, 215, 0, 0.15),
+    transparent 40%
+  );
+  z-index: 1;
+  pointer-events: none;
+  transition: transform 0.1s ease-out;
+}
+
+.gradient-bg {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(45deg, #050816, #0f0b2e, #050816);
+  z-index: 0;
+}
+
+.gradients-container {
+  filter: blur(80px) brightness(0.8);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+}
+
+.g1, .g2, .g3, .g4, .g5 {
+  position: absolute;
+  mix-blend-mode: screen;
+  border-radius: 9999px;
+}
+
+.g1 {
+  background: radial-gradient(circle at center, rgba(139, 92, 246, 0.4) 0, rgba(139, 92, 246, 0) 60%) no-repeat;
+  width: 40vw;
+  height: 40vw;
+  top: 5%;
+  left: 10%;
+  animation: move-g1 20s infinite alternate;
+}
+
+.g2 {
+  background: radial-gradient(circle at center, rgba(255, 165, 0, 0.2) 0, rgba(255, 165, 0, 0) 70%) no-repeat;
+  width: 35vw;
+  height: 35vw;
+  top: 20%;
+  right: 5%;
+  animation: move-g2 25s infinite alternate;
+}
+
+.g3 {
+  background: radial-gradient(circle at center, rgba(255, 140, 0, 0.25) 0, rgba(255, 140, 0, 0) 65%) no-repeat;
+  width: 30vw;
+  height: 30vw;
+  bottom: 10%;
+  left: 25%;
+  animation: move-g3 22s infinite alternate;
+}
+
+.g4 {
+  background: radial-gradient(circle at center, rgba(59, 130, 246, 0.3) 0, rgba(59, 130, 246, 0) 60%) no-repeat;
+  width: 45vw;
+  height: 45vw;
+  bottom: 5%;
+  right: 15%;
+  animation: move-g4 28s infinite alternate;
+}
+
+.g5 {
+  background: radial-gradient(circle at center, rgba(255, 223, 186, 0.1) 0, rgba(255, 223, 186, 0) 70%) no-repeat;
+  width: 50vw;
+  height: 50vw;
+  top: 50%;
+  left: 50%;
+  animation: move-g5 18s infinite alternate;
+}
+
+@keyframes move-g1 {
+  from { transform: translate(-20%, -10%) rotate(0deg); }
+  to { transform: translate(20%, 10%) rotate(30deg); }
+}
+
+@keyframes move-g2 {
+  from { transform: translate(15%, 20%) scale(0.9); }
+  to { transform: translate(-15%, -20%) scale(1.1); }
+}
+
+@keyframes move-g3 {
+  from { transform: translate(0, 0) scale(1.2); }
+  to { transform: translate(10%, -15%) scale(0.8); }
+}
+
+@keyframes move-g4 {
+  from { transform: translate(-10%, 10%); }
+  to { transform: translate(10%, -10%); }
+}
+
+@keyframes move-g5 {
+  from { transform: translate(-50%, -50%) scale(1); }
+  to { transform: translate(-40%, -60%) scale(1.3); }
+}
